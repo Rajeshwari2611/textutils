@@ -1,4 +1,4 @@
-[[redirects]]
-from ="/*"
-to="/index.html"
-status=200
+[build]
+command = "npm run build"
+publish = "build"
+node_version = "16" # Replace with your required version
